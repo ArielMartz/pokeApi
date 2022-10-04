@@ -1,9 +1,16 @@
 import React from "react";
 
 const Navbar = () => {
+    const logoImg = "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"
   return (
     <nav>
-      <div>PokeApi</div>
+      <div>
+        <img
+          src={logoImg}
+          alt="pokeApi Logo"
+          className="navbar-img"
+        />
+      </div>
     </nav>
   );
 };
